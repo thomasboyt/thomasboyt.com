@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+p, li {
+  font-size: 18px;
+  line-height: 22px;
+}
+
+a, a:visited, a:hover, .name {
+  color: #E94E77;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a.name {
+  text-decoration: none;
+}
+
+a.name:hover {
+  text-decoration: underline;
+}
+
+body, code {
+  font-family: Inconsolata, Monaco, Consolas, monospace;
+}
+
+body {
+  padding: 0 10px;
+}
+
+.container {
+  max-width: 700px;
+}
+
+a.me-link {
+  font-weight: 700;
+}
+
+ul li {
+  margin: 0.5em 0;
+}
